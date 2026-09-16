@@ -4,7 +4,7 @@
 // @version      1.0.2
 // @description  try to take over the world!
 // @author       Iago Alencar
-// @match        https://bortoliniimoveis.bitrix24.com.br/crm/deal/kanban/category/0/
+// @match        https://bortoliniimoveis.bitrix24.com.br/crm/lead/kanban/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=bitrix24.com.br
 // @grant        none
 // @downloadURL  https://raw.githubusercontent.com/BortoliniImoveis/leads-tampermonkey/main/script.user.js
