@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CARDS COM CORES LEADS
 // @namespace    http://tampermonkey.net/
-// @version      1.0.2
+// @version      1.0.3
 // @description  try to take over the world!
 // @author       Iago Alencar
 // @match        https://bortoliniimoveis.bitrix24.com.br/crm/lead/kanban/
@@ -51,6 +51,10 @@
 
             else if (status.includes("DESOCUPAÇÃO")) {
                 card.style.backgroundColor = "#b390cc"; // roxo
+            }
+
+            else if (status.includes("AGUARDANDO IMÓVEL")) {
+                card.style.backgroundColor = "#d9b3ff"; // roxo claro
             }
 
             else if (status.includes("CADÊNCIA")) {
